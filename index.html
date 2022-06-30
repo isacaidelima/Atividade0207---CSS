@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercicio CSS</title>
 
-    <link rel="stylesheet" href="estilo.css" />
-  </head>
-  <!--Essa página foi criada utilizando como base de fonte o artigo do site: super.abril.com.br/tecnologia/os-30-games-mais-importantes-de-todos-os-tempos/ 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercicio CSS</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+
+
+</head>
+<!--Essa página foi criada utilizando como base de fonte o artigo do site: super.abril.com.br/tecnologia/os-30-games-mais-importantes-de-todos-os-tempos/ 
 Autor: Pablo Miyazawa Atualizado em 27 mar 2020 
 -->
-  <body>
-    <div id="intro-pag">
-      <h1>Jogos antigos que fizeram história</h1>
-      <p>
-        O autor do artigo original fez um levantamento com 30 jogos mais
-        influentes/importantes para a evolução dos jogos na indústria do
-        entreterimento. Entretanto, neste exercício estamos abordando apenas os
-        jogos iniciais dessa lista. Para quem deseja ver o restante do artigo, o
-        link completo está disponível no cógido HTML dessa atividade :)
-      </p>
-      <h2>Lista com jogos influentes:</h2>
-      <nav>
-        <ul>
-          <a href="#space"><li>1978 - Space Invaders</li></a>
-          <a href="#pac"><li>1980 - Pac Man</li></a>
-          <a href="#dk"><li>1981 - Donkey Kong</li></a>
-          <a href="#mario"><li>1985 - Super Mario Bros.</li></a>
-        </ul>
-      </nav>
-    </div>
-    <div class="conteudo-padrao">
+
+<body>
+  <div id="intro-pag">
+    <h1>Jogos antigos que fizeram história</h1>
+    <p>
+      O autor do artigo original fez um levantamento com 30 jogos mais
+      influentes/importantes para a evolução dos jogos na indústria do
+      entreterimento. Entretanto, neste exercício estamos abordando apenas os
+      jogos iniciais dessa lista. Para quem deseja ver o restante do artigo, o
+      link completo está disponível no cógido HTML dessa atividade :)
+    </p>
+    <h2>LISTA COM JOGOS INFLUENTES:</h2>
+    <nav>
+      <ul>
+        <a href="#space">
+          <li>1978 - Space Invaders</li>
+        </a>
+        <a href="#pac">
+          <li>1980 - Pac Man</li>
+        </a>
+        <a href="#dk">
+          <li>1981 - Donkey Kong</li>
+        </a>
+        <a href="#mario">
+          <li>1985 - Super Mario Bros.</li>
+        </a>
+      </ul>
+    </nav>
+  </div>
+  <div class="conteudo-padrao">
+    <div class="conteudo-child">
       <h2 id="space">1978 – Space Invaders</h2>
       <p>
         Se Pong fez as pessoas se acostumarem a jogar em público, Space Invaders
@@ -45,7 +59,9 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         bilhões em fichas (moedas, no caso) ao final de 1982.
       </p>
     </div>
-    <div class="conteudo-padrao">
+  </div>
+  <div class="conteudo-padrao">
+    <div class="conteudo-child">
       <h2 id="pac">1980 – Pac-Man</h2>
       <p>
         O grande público já estava mais acostumado aos videogames na entrada da
@@ -53,10 +69,6 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         primeira vez o jogador pôde se relacionar realmente com um protagonista
         – mesmo que ele fosse uma bola amarela com crises de apetite e
         perseguida por fantasmas obcecados.
-      </p>
-
-      <img src="pacman.jpg" alt="imagem jogo pacman" />
-      <p>
         Antes do herói criado por Toru Iwatani (diz a lenda que ele se inspirou
         no formato de uma pizza cortada para criá-lo), games eram estrelados por
         personagens anônimos. Mais do que um fenômeno cultural e midiático que
@@ -64,8 +76,11 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         para estabelecer definitivamente os games no imaginário popular.
       </p>
     </div>
+    <img src="pacman.jpg" alt="imagem jogo pacman" />
+  </div>
 
-    <div class="conteudo-padrao">
+  <div class="conteudo-padrao">
+    <div class="conteudo-child">
       <h2 id="dk">1981 – Donkey Kong</h2>
       <p>
         O marco zero das narrativas nos games também é cele­brado por ter sido o
@@ -80,12 +95,13 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         jogo. A disputa entre os dois principais jogadores foi retratada no
         ótimo documentário King of Kong.
       </p>
-      <img src="dk.jpg" alt="imagem jogo donkey kong">
     </div>
+    <img src="dk.jpg" alt="imagem jogo donkey kong">
+  </div>
 
-    <div class="conteudo-padrao">
+  <div class="conteudo-padrao">
+    <div class="conteudo-child">
       <h2 id="mario">1985 – Super Mario Bros.</h2>
-      <img src="mario.jpg" alt="imagem jogo super mario">
       <p>
         Criado por Shigeru Miyamoto, Super Mario Bros. revolucionou de cara,
         obrigando o jogador a seguir sempre adiante, explorando oito mundos com
@@ -96,8 +112,12 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         de dominar (e largar), foi inspiração para todos os games de ação.
       </p>
     </div>
+    <img src="mario.jpg" alt="imagem jogo super mario">
+
+  </div>
 
 
-    <footer>Aula para formatação de CSS.</footer>
-  </body>
+  <footer>Aula para formatação de CSS.</footer>
+</body>
+
 </html>
